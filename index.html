@@ -3,13 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al Noor Demolition | Professional Demolition Experts</title>
     
+    <title>Al Noor Demolition Dubai | Building Demolition & Concrete Cutting</title>
+    <meta name="description" content="Professional demolition services in Dubai. Expert building demolition, core cutting, slab cutting, and interlock works. Safe, reliable, and available 24/7 across UAE.">
+    <meta name="keywords" content="Demolition Dubai, Building Demolition, Concrete Cutting Dubai, Core Drilling, Slab Cutting, Interlock Works Dubai, Al Noor Demolition, Site Clearing Dubai">
+    <meta name="author" content="360 Solvers">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Al Noor Demolition | Professional Experts in Dubai">
+    <meta property="og:description" content="Safe and efficient demolition of buildings, villas, and concrete structures across Dubai. Get a free quote today!">
+    <meta property="og:image" content="https://eng-ramzanrazi.github.io/al-noor-demolition/Construction-(2).avif">
+    <meta property="og:url" content="https://eng-ramzanrazi.github.io/al-noor-demolition/">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Al Noor Demolition & Interlock Works",
+      "image": "https://eng-ramzanrazi.github.io/al-noor-demolition/Construction-(2).avif",
+      "@id": "https://eng-ramzanrazi.github.io/al-noor-demolition/",
+      "url": "https://eng-ramzanrazi.github.io/al-noor-demolition/",
+      "telephone": "+971502541130",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Various Locations",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
-        /* CSS STYLES */
         :root {
             --primary-orange: #f39c12;
             --dark-bg: #1e272e;
@@ -19,20 +60,16 @@
             --whatsapp-green: #25D366;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
 
         body {
             font-family: 'Roboto', sans-serif;
             color: #2f3542;
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
-        /* Nav like Image 1 */
+        /* Nav Styles */
         nav {
             background: rgba(26, 26, 26, 0.95);
             height: 70px;
@@ -44,6 +81,7 @@
             width: 100%;
             z-index: 1000;
             border-bottom: 2px solid var(--primary-orange);
+            transition: 0.3s;
         }
 
         .logo {
@@ -53,17 +91,13 @@
             font-size: 1.5rem;
             letter-spacing: 1px;
             text-transform: uppercase;
+            white-space: nowrap;
         }
 
         .logo span { color: var(--primary-orange); }
 
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
+        .nav-links { display: flex; list-style: none; }
         .nav-links li { margin-left: 25px; }
-
         .nav-links a {
             color: var(--white);
             text-decoration: none;
@@ -71,32 +105,33 @@
             font-size: 0.95rem;
             transition: 0.3s;
         }
-
         .nav-links a:hover { color: var(--primary-orange); }
 
-        /* Hero like Image 1 with Crane BG */
+        .menu-toggle { display: none; color: white; font-size: 1.5rem; cursor: pointer; }
+
+        /* Hero Section */
         .hero {
             height: 100vh;
+            min-height: 600px;
             background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                        url('Construction-(1).avif') no-repeat center center/cover;
+                        url('Construction-(2).avif') no-repeat center center/100% 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             color: var(--white);
-            padding: 0 15px;
+            padding: 0 20px;
         }
 
-        .hero h3 { font-size: 1.2rem; margin-bottom: 10px; font-weight: 500; letter-spacing: 2px; }
-        .hero h1 { font-size: 4rem; font-weight: 900; margin-bottom: 20px; line-height: 1.1; }
+        .hero h3 { font-size: 1.1rem; margin-bottom: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; }
+        .hero h1 { font-size: clamp(2.2rem, 8vw, 4rem); font-weight: 900; margin-bottom: 20px; line-height: 1.1; }
         .hero p { max-width: 800px; font-size: 1.1rem; margin-bottom: 30px; font-weight: 300; }
 
-        /* Hero Buttons like Image 1 */
-        .hero-btns { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+        .hero-btns { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
 
         .btn {
-            padding: 15px 35px;
+            padding: 15px 30px;
             font-weight: 700;
             border-radius: 5px;
             text-decoration: none;
@@ -104,82 +139,93 @@
             align-items: center;
             gap: 10px;
             transition: 0.3s;
-            border: none;
-            cursor: pointer;
+            font-size: 0.95rem;
         }
-
         .btn-orange { background: var(--primary-orange); color: var(--white); }
         .btn-green { background: var(--whatsapp-green); color: var(--white); }
-        .btn:hover { transform: translateY(-3px); opacity: 0.9; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
 
-        /* Services like Image 2 & 4 */
-        .section-padding { padding: 80px 10%; }
+        /* Services Section */
+        .section-padding { padding: 80px 8%; }
         .section-header { text-align: center; margin-bottom: 50px; }
-        .section-header h2 { font-size: 2.2rem; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
-        .section-header .line { width: 60px; height: 3px; background: var(--primary-orange); margin: 10px auto; }
+        .section-header h2 { font-size: clamp(1.8rem, 5vw, 2.2rem); font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+        .section-header .line { width: 60px; height: 3px; background: var(--primary-orange); margin: 15px auto; }
         
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 25px;
         }
 
         .service-card {
             background: var(--white);
-            padding: 40px 30px;
+            padding: 40px 25px;
             text-align: center;
             border-radius: 8px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 25px rgba(0,0,0,0.05);
             transition: 0.3s;
         }
-
-        .service-card:hover { transform: translateY(-10px); }
-        .service-card i { font-size: 3rem; color: var(--primary-orange); margin-bottom: 20px; }
-        .service-card h4 { margin-bottom: 15px; font-size: 1.2rem; text-transform: uppercase; }
+        .service-card:hover { transform: translateY(-10px); border-bottom: 3px solid var(--primary-orange); }
+        .service-card i { font-size: 2.8rem; color: var(--primary-orange); margin-bottom: 20px; }
+        .service-card h4 { margin-bottom: 15px; font-size: 1.1rem; text-transform: uppercase; }
         .service-card p { color: var(--text-grey); font-size: 0.95rem; }
 
-        /* Contact & Footer like Image 3 */
-        .footer-main {
-            background: #2c3e50;
-            color: var(--white);
-            padding: 80px 10% 40px;
+        /* Contact & Footer */
+        .footer-main { background: #2c3e50; color: var(--white); padding: 80px 8% 40px; }
+        .contact-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; margin-bottom: 50px; }
+
+        .info-item { display: flex; align-items: flex-start; margin-bottom: 25px; }
+        .info-item i { font-size: 1.4rem; color: var(--primary-orange); margin-right: 15px; margin-top: 5px; }
+        .info-item h5 { font-size: 1rem; margin-bottom: 3px; }
+        .info-item span { color: #bdc3c7; }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%; padding: 14px; margin-bottom: 15px; border-radius: 4px; border: none; font-family: inherit;
         }
-
-        .contact-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 50px;
-            margin-bottom: 50px;
-        }
-
-        .contact-info h3 { font-size: 1.5rem; margin-bottom: 20px; }
-        .contact-info p { margin-bottom: 30px; color: #bdc3c7; }
-
-        .info-item { display: flex; align-items: flex-start; margin-bottom: 20px; }
-        .info-item i { font-size: 1.5rem; color: var(--primary-orange); margin-right: 15px; margin-top: 5px; }
-        .info-item h5 { font-size: 1rem; margin-bottom: 2px; }
-        .info-item span { color: #bdc3c7; font-size: 0.95rem; }
 
         .footer-bottom {
             border-top: 1px solid rgba(255,255,255,0.1);
             padding-top: 30px;
             text-align: center;
             color: #bdc3c7;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
+        .footer-bottom a { color: var(--primary-orange); text-decoration: none; font-weight: bold; }
 
-        /* Mobile Adjustments */
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white;
+            width: 60px; height: 60px; border-radius: 50%; text-align: center; font-size: 30px;
+            box-shadow: 2px 2px 3px #999; z-index: 2000; display: flex; align-items: center; justify-content: center;
+            text-decoration: none; transition: 0.3s;
+        }
+        .whatsapp-float:hover { transform: scale(1.1); background: #128c7e; }
+
+        /* RESPONSIVE MEDIA QUERIES */
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .nav-links { display: none; }
-            .section-padding { padding: 60px 5%; }
+            .menu-toggle { display: block; }
+            .logo { font-size: 1.1rem; }
+            .nav-links {
+                position: absolute; top: 70px; left: -100%; background: #1a1a1a;
+                width: 100%; flex-direction: column; padding: 30px 0; transition: 0.4s ease;
+                text-align: center; border-bottom: 3px solid var(--primary-orange);
+            }
+            .nav-links.active { left: 0; }
+            .nav-links li { margin: 15px 0; }
         }
     </style>
 </head>
 <body>
 
+    <a href="https://wa.me/971502719104" class="whatsapp-float" target="_blank" aria-label="WhatsApp Us">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <nav>
         <div class="logo">AL NOOR <span>DEMOLITION</span></div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
@@ -190,7 +236,7 @@
     <header id="home" class="hero">
         <h3>PROFESSIONAL DEMOLITION EXPERTS</h3>
         <h1>RELIABLE. SAFE. EFFICIENT.</h1>
-        <p>Specializing in full building demolition, interior stripping, and professional site clearing. We use heavy-duty machinery to ensure your project is ready for its next phase.</p>
+        <p>Specializing in full building demolition, interior stripping, and professional site clearing across Dubai.</p>
         
         <div class="hero-btns">
             <a href="tel:+971502541130" class="btn btn-orange">
@@ -235,95 +281,84 @@
                 <h4>Concrete Cutting</h4>
                 <p>Specialized concrete cutting works tailored to your construction needs.</p>
             </div>
+            <div class="service-card">
+                <i class="fas fa-truck-pickup"></i>
+                <h4>Debris Removal</h4>
+                <p>Professional post-demolition site clearing and waste disposal services.</p>
+            </div>
         </div>
     </section>
 
     <footer id="contact" class="footer-main">
         <div class="section-header" style="text-align: left; margin-bottom: 40px;">
             <h2 style="color: white;">Contact Us</h2>
-            <div class="line" style="margin: 10px 0;"></div>
+            <div class="line" style="margin: 15px 0 0 0;"></div>
         </div>
 
         <div class="contact-container">
             <div class="contact-info">
                 <h3>GET IN TOUCH</h3>
                 <p>Available 24/7 for emergency demolition and cutting services across Dubai.</p>
-                
                 <div class="info-item">
                     <i class="fas fa-phone-alt"></i>
-                    <div>
-                        <h5>Call Us</h5>
-                        <span>+971 50 254 1130</span>
-                    </div>
+                    <div><h5>Call Us</h5><span>+971 50 254 1130</span></div>
                 </div>
-
                 <div class="info-item">
                     <i class="fab fa-whatsapp"></i>
-                    <div>
-                        <h5>WhatsApp</h5>
-                        <span>+971 50 271 9104</span>
-                    </div>
+                    <div><h5>WhatsApp</h5><span>+971 50 271 9104</span></div>
                 </div>
-
                 <div class="info-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <h5>Location</h5>
-                        <span>Dubai, United Arab Emirates</span>
-                    </div>
+                    <div><h5>Location</h5><span>Dubai, United Arab Emirates</span></div>
                 </div>
             </div>
 
             <div class="contact-form">
-                <p style="margin-bottom: 20px; color: #bdc3c7;">Send us a message for a free estimate.</p>
                 <form id="quoteForm">
-                    <input type="text" placeholder="Name" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 4px; border: none;">
-                    <input type="text" placeholder="Phone" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 4px; border: none;">
-                    <textarea placeholder="Message" rows="4" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 4px; border: none;"></textarea>
-                    <button type="submit" class="btn btn-orange" style="width: 100%; justify-content: center;">Send Request</button>
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Phone" required>
+                    <textarea placeholder="Message" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-orange" style="width: 100%; justify-content: center; cursor: pointer;">Send Request</button>
                 </form>
             </div>
         </div>
 
         <div class="footer-bottom">
-            &copy; <span id="year"></span> Al Noor Demolition & Interlock Works. All Rights Reserved.
+            &copy; <span id="year"></span> Al Noor Demolition & Interlock Works. Powered by <a href="https://360solvers.com" target="_blank">360 Solvers</a>
         </div>
     </footer>
 
     <script>
-        // 1. Dynamic Current Year
         document.getElementById('year').textContent = new Date().getFullYear();
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
 
-        // 2. Smooth Scrolling logic
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
             });
         });
 
-        // 3. Simple Form Handling
-        document.getElementById('quoteForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you! Your request has been sent successfully.');
-            this.reset();
-        });
-
-        // 4. Navbar transition on scroll
         window.addEventListener('scroll', function() {
             const nav = document.querySelector('nav');
             if (window.scrollY > 50) {
-                nav.style.padding = '5px 8%';
                 nav.style.background = '#111';
+                nav.style.height = '60px';
             } else {
-                nav.style.padding = '0 8%';
                 nav.style.background = 'rgba(26, 26, 26, 0.95)';
+                nav.style.height = '70px';
             }
         });
     </script>
 </body>
-
 </html>
-
